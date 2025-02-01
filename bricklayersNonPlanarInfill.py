@@ -314,7 +314,7 @@ def process_wall_shifting(lines, layer_height, extrusion_multiplier, enable_wall
 def get_layer_height(gcode_lines):
     """Extract layer height from G-code header comments"""
     for line in gcode_lines:
-        if "layer_height =" in line.lower():
+        if "; layer_height =" in line.lower():
             match = re.search(r'layer_height = (\d*\.?\d+)', line, re.IGNORECASE)
             if match:
                 return float(match.group(1))
