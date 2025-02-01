@@ -28,7 +28,7 @@ Here is a video about the script.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EqRdQOoK5hc/0.jpg)](https://www.youtube.com/watch?v=EqRdQOoK5hc)
 
 
-# Bricklayers + NonPlanar infill
+# Bricklayers + NonPlanar infill (Currently only tested in Prusaslicer!)
 
 (For better results turn on External perimeters first)
 
